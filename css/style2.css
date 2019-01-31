@@ -7,10 +7,33 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
+body {
   padding: 0px;
   background-color: #ecf0f1;
   max-width: 600px;
   margin: auto;
 }
 
+#pslo ol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.pslo {
+  flex-basis: 40%;
+  flex-grow: 1;
+  background-color: #16a085;
+  padding: 10px;
+  margin: 15px;
+  color: #ffffff;
+  list-style-type: none;
+  box-shadow: 0px 2px 3px 0px #000;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.pslo:hover {
+  transform: scale(1.08, 1.08);
+}
