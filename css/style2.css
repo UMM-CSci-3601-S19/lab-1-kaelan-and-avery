@@ -7,6 +7,7 @@ use float to make something locate itself on the right or left
 
 */
 
+/* Count body as 1/5 */
 body {
   padding-top: 25px;
   background-color: #ecf0f1;
@@ -30,6 +31,7 @@ h2 {
   text-align: center;
 }
 
+/* makes PSLO items distribute evenly using flexbox */
 #pslo ol {
   display: flex;
   flex-direction: row;
@@ -37,6 +39,7 @@ h2 {
   padding: 0;
 }
 
+/* Count .pslo as 1/5 */
 .pslo {
   flex-basis: 40%;
   flex-grow: 1;
@@ -50,10 +53,12 @@ h2 {
   transition: 0.3s ease;
 }
 
+/* Count .pslo:hover as 1/5 */
 .pslo:hover {
   transform: scale(1.08, 1.08);
 }
 
+/* Count #courses>ul as 1/5 */
 #courses>ul {
   background-color: #f39c12;
   color: #111111;
@@ -62,12 +67,14 @@ h2 {
   clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
+/* makes faculty list distribute evenly using flexbox */
 #faculty-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
 }
+
 
 #faculty-list>li {
   display: flex;
@@ -88,6 +95,7 @@ h2 {
   transform: scale(1.08, 1.08);
 }
 
+/* Count validation as 1/5 */
 #validation {
   background-color: #2c3e50;
   color: #ffffff;
