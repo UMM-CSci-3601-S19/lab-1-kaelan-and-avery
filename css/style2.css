@@ -12,11 +12,22 @@ body {
   background-color: #ecf0f1;
   max-width: 600px;
   margin: auto;
+  font-family: Questrial, sans-serif;
+}
+
+h1 {
+  font-family: kanit, serif;
 }
 
 #main-title {
   text-align: center;
   font-size: 3.5rem;
+}
+
+h2 {
+  font-family: kanit, serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #pslo ol {
